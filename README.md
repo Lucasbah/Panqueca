@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Banner" src="https://i.imgur.com/hZW5ofN.png)"/>
+  <img alt="Banner" src="https://i.imgur.com/q1YmDhy.png"/>
 </h1>
 <h1 align="center"> Desafio Rocketseat: Página de Receita </h1>
 
@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Desafio Receita" src="https://imgur.com/B0SMb8H.png" width="50%">
+  <img alt="Desafio Receita" src="https://imgur.com/B0SMb8H.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
