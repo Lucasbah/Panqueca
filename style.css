@@ -5,8 +5,49 @@
    }
 
 body{
-    background: #eaeaea;
- font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-bottom: 270px;
+    height: 100vh;
+    background-color: #ffdfca;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fd1616;
+    padding: 20px 0px 10px 10px;
+    
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+.menu{
+    display:contents;
+    justify-content: center;
+}
+.txtmenu{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 10px 0px 0px 60px;
+    justify-content: space-between;
+
+}
+
+.txtmenu:hover{
+    color: rgb(255, 220, 42);
+}
+
+.top{
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: #1B1B1B;
 }
 
 .recipe-image {
@@ -28,11 +69,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 250px;
+    margin-top: 350px;
    }
 
    .card{
-    background-color: white;
+    background: radial-gradient(rgb(255, 255, 255), rgb(255, 244, 200));
 	padding: 50px;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px #aaa;
@@ -43,14 +84,14 @@ body{
 
     h1{
         margin-bottom: 20px;
-        color: #1B1B1B;
+        color: #fd1616
     }
 
     h2{
      margin-top: 30px;
      margin-bottom: 20px;
      font-size: 20px; 
-     color: #1B1B1B;
+     color: #fd1616;
     }
 
     ul, ol {
@@ -68,4 +109,5 @@ body{
         text-align: center;
         font-size: 12px;
         color: #8F8F8F;
+        background-color: trnsparent;
       }
