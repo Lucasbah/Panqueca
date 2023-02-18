@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Desafio Receita" src="https://imgur.com/B0SMb8H.png" width="100%">
+  <img alt="Desafio Receita" src="https://imgur.com/a/QOOIuI6.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
