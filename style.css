@@ -3,7 +3,78 @@
     padding: 0;
     box-sizing: border-box;
    }
+header{
+    background: #fd1616;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
 
+.logo h1 {
+    color: white;
+    font-size: 46px;
+    margin: 0;
+    font-family: 'Bad Script', cursive;
+    letter-spacing: 2px;
+    font-weight: bolder bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a:hover{
+    color: rgb(254, 233, 149);
+}
+
+nav ul li .submenu {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    display:none;
+    width: 150px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  nav ul li:hover .submenu {
+    display: block;
+  }
+  
+  nav ul li .submenu a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  nav ul li .submenu a:hover {
+    color: red;
+  }
+  
+.contato{
+    margin-left: 150px;
+}
+  
 body{
     margin: 0;
     margin-bottom: 270px;
@@ -14,42 +85,13 @@ body{
 
 }
 
-.header{
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fd1616;
-    padding: 20px 0px 10px 10px;
+.class{
+    color: #fd1616;
+    padding: 20px 0px;
+}
 
-    font-family: 'Fredoka One', cursive;
+
     
-}
-
-.menu{
-    display:contents;
-    justify-content: center;
-}
-.txtmenu{
-    color: white;
-    text-decoration: none;
-    letter-spacing: 1.5px;
-    padding: 10px 0px 0px 60px;
-    justify-content: space-between;
-
-}
-
-.txtmenu:hover{
-    color: rgb(255, 220, 42);
-}
-
-.top{
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-shadow: #1B1B1B;
-}
-
 .recipe-image {
     text-align: right;
     font-size: 12px;
@@ -69,12 +111,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 350px;
+    margin-top: 300px;
    }
 
    .card{
     background: radial-gradient(rgb(255, 255, 255), rgb(255, 244, 200));
 	padding: 50px;
+    padding-top: 10px;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px #aaa;
 	text-align: center;
@@ -82,10 +125,7 @@ body{
 	max-width: 800px;
     }
 
-    h1{
-        margin-bottom: 20px;
-        color: #fd1616
-    }
+    
 
     h2{
      margin-top: 30px;
